@@ -1,3 +1,5 @@
+package comparableXcomparator;
+
 public class Livro {
     private String titulo;
     private String autor;
@@ -23,7 +25,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
+        return "comparableXcomparator.Livro{" +
                 "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", anoPublicacao=" + anoPublicacao +
