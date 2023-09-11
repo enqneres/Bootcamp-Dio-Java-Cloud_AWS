@@ -1,4 +1,4 @@
-package Ordenacao;
+package set.Pesquisa;
 
 import java.util.Objects;
 
