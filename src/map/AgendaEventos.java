@@ -1,3 +1,5 @@
+package map;
+
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.*;
@@ -10,7 +12,7 @@ public class AgendaEventos {
     }
 
     public void adicionarEvento(LocalDate data, String nome, String atracao){
-        //Evento evento = new Evento(nome, atracao);
+        //map.Evento evento = new map.Evento(nome, atracao);
         eventosMap.put(data, new Evento(nome, atracao));
     }
 
@@ -21,7 +23,7 @@ public class AgendaEventos {
 
     public void obterProximoEvento(){
         //Set<LocalDate> dateSet = eventosMap.keySet();
-        //Collection<Evento> values = eventosMap.values();
+        //Collection<map.Evento> values = eventosMap.values();
 
         LocalDate dataAtual = LocalDate.now();
         LocalDate proximaData = null;
@@ -39,9 +41,9 @@ public class AgendaEventos {
 
     public static void main(String[] args) {
         AgendaEventos agendaEventos = new AgendaEventos();
-        agendaEventos.adicionarEvento(LocalDate.of(2022, Month.APRIL, 15), "Evento 1", "Atracao 1");
-        agendaEventos.adicionarEvento(LocalDate.of(2022, Month.JULY, 30), "Evento 2", "Atracao 2");
-        agendaEventos.adicionarEvento(LocalDate.of(2023, Month.DECEMBER, 12), "Evento 3", "Atracao 3");
+        agendaEventos.adicionarEvento(LocalDate.of(2022, Month.APRIL, 15), "map.Evento 1", "Atracao 1");
+        agendaEventos.adicionarEvento(LocalDate.of(2022, Month.JULY, 30), "map.Evento 2", "Atracao 2");
+        agendaEventos.adicionarEvento(LocalDate.of(2023, Month.DECEMBER, 12), "map.Evento 3", "Atracao 3");
 
         agendaEventos.exibirAgenda();
 

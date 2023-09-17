@@ -51,7 +51,7 @@ public class Produto implements Comparable <Produto> {
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "map.Produto{" +
                 "codigo=" + codigo +
                 ", nome='" + nome + '\'' +
                 ", preco=" + preco +

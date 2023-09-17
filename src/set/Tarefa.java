@@ -1,4 +1,4 @@
-package set.Pesquisa;
+package set;
 
 public class Tarefa {
     private String descricao;
@@ -27,7 +27,7 @@ public class Tarefa {
 
     @Override
     public String toString() {
-        return "Tarefa{" +
+        return "list.Tarefa{" +
                 "descricao='" + descricao + '\'' +
                 ", concluida=" + concluida +
                 '}';

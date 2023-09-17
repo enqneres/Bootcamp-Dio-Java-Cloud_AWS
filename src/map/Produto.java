@@ -1,3 +1,5 @@
+package map;
+
 public class Produto {
     private String nome;
     private double preco;
@@ -23,7 +25,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "map.Produto{" +
                 "nome='" + nome + '\'' +
                 ", preco=" + preco +
                 ", quantidade=" + quantidade +

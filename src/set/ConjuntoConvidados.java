@@ -1,3 +1,5 @@
+package set;
+
 import Ordenacao.Convidado;
 
 import java.util.HashSet;

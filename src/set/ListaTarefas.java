@@ -1,4 +1,4 @@
-package set.Pesquisa;
+package set;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -29,7 +29,7 @@ public class ListaTarefas {
         }
 
         if (tarefaParaRemover == null){
-            System.out.println("Tarefa não encontrada");
+            System.out.println("list.Tarefa não encontrada");
         }
     }
 
@@ -37,7 +37,7 @@ public class ListaTarefas {
         if (!tarefasSet.isEmpty()) {
             System.out.println(tarefasSet);
         } else {
-            System.out.println("Tarefa não encontrada");
+            System.out.println("list.Tarefa não encontrada");
         }
     }
 
@@ -85,7 +85,7 @@ public class ListaTarefas {
         if (tarefaParaMarcarComoPendente != null) {
             tarefaParaMarcarComoPendente.setConcluida(true);
         } else {
-            System.out.println("Tarefa não encontrada na lista");
+            System.out.println("list.Tarefa não encontrada na lista");
         }
     }
 

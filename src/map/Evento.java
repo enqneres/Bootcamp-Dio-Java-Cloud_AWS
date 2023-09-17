@@ -1,3 +1,5 @@
+package map;
+
 public class Evento{
     private String nome;
     private String atracao;
@@ -17,7 +19,7 @@ public class Evento{
 
     @Override
     public String toString() {
-        return "Evento{" +
+        return "map.Evento{" +
                 "nome='" + nome + '\'' +
                 ", atracao='" + atracao + '\'' +
                 '}';

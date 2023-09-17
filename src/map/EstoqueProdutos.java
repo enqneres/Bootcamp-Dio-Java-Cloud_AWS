@@ -1,3 +1,5 @@
+package map;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,14 +45,14 @@ public class EstoqueProdutos {
         EstoqueProdutos estoque = new EstoqueProdutos();
         estoque.exibirProdutos();
 
-        estoque.adicionarProduto(1L, "Produto A", 10, 5.0);
-        estoque.adicionarProduto(2L, "Produto B", 5, 10.0);
-        estoque.adicionarProduto(3L, "Produto C", 2, 15.0);
-        estoque.adicionarProduto(4L, "Produto D", 4, 20.0);
+        estoque.adicionarProduto(1L, "map.Produto A", 10, 5.0);
+        estoque.adicionarProduto(2L, "map.Produto B", 5, 10.0);
+        estoque.adicionarProduto(3L, "map.Produto C", 2, 15.0);
+        estoque.adicionarProduto(4L, "map.Produto D", 4, 20.0);
 
         estoque.exibirProdutos();
 
         System.out.println("Valor total de estoque: R$" + estoque.calcularValorTotalEstoque());
-        System.out.println("Produto mais barato: " + estoque.obterProdutoMaisCaro());
+        System.out.println("map.Produto mais barato: " + estoque.obterProdutoMaisCaro());
     }
 }
