@@ -1,4 +1,4 @@
-<img alt="Proffy" src="https://hermes.dio.me/tracks/8df7f59a-4572-4085-b6c1-f735e2dc23d9.png">
+<img alt="Proffy" src="https://hermes.dio.me/tracks/8df7f59a-4572-4085-b6c1-f735e2dc23d9.png" width="500" height="500">
 
 ## Bootcamp - Desenvolvimento Java com Cloud AWS
 <p align="center">Participei do Bootcamp Coding The Future, em parceria com a GFT e a AWS, duas gigantes do mercado tecnológico e aprimorei o conhecimento em Java com ênfase em computação em nuvem AWS e Inteligência Artificial.
