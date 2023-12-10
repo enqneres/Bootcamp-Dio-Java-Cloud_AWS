@@ -33,7 +33,7 @@ As seguintes tecnologias foram usadas no aprendizado do bootcamp:
 ### 💡 Desafios realizados
 Os seguintes desafios foram executados:
 
-👉 Contribuindo em um Projeto Open Source no GitHub - [Link do repositório](https://github.com/enqneres/dio-lab-open-source.git)
-👉 Orientação a Objetos e UML: Diagramação de Classes do iPhone - [Link do repositório](https://github.com/enqneres/Desafio-POO-iPhone)
-👉 Design Pattern in Java - [Link do repositório](https://github.com/enqneres/design-pattern-in-java.git)
-👉 Spring Security JWT - [Link do repositório](https://github.com/enqneres/SpringSecurity_JWT.git)
+1. Contribuindo em um Projeto Open Source no GitHub - [Link do repositório](https://github.com/enqneres/dio-lab-open-source.git)
+2. Orientação a Objetos e UML: Diagramação de Classes do iPhone - [Link do repositório](https://github.com/enqneres/Desafio-POO-iPhone)
+3. Design Pattern in Java - [Link do repositório](https://github.com/enqneres/design-pattern-in-java.git)
+4. Spring Security JWT - [Link do repositório](https://github.com/enqneres/SpringSecurity_JWT.git)
